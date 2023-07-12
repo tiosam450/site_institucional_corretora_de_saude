@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Envida Corretora de Saúde</title>
+
+    <!-- METAS -->
+    <!-- <meta http-equiv="refresh" content="0; URL='https://www.envidacorretora.com.br'"/> -->
+    <meta name="author" content="Samuel Nogueira">
+    <meta name="description" content="A ENVIDA CORRETORA é especializada em proteger a saúde e o bem-estar de nossos clientes, porque FELICIDADE É VIVER COM SEGURANÇA!">
+    <meta name="robots" content="all">
+    <meta name="keywords" content="envida, corretora, emvida, evida, Plano de saúde, plano empresarial, corretora de saúde, plano de saúde barato, melhor plano de saúde, segurança">
+    <meta name="city" content="Campo Grande">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINKS -->
+    <link rel="icon" href="img\icone_envida.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animacoes.css">
+    <link rel="stylesheet" href="gallery.theme.css">
+    <link rel="stylesheet" href="gallery.min.css">
+    <link rel="stylesheet" href="gallery.theme.mob.css">
+    <link rel="stylesheet" href="gallery.min.mob.css">
+    
+    
+    <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/7aa73bb9b6.js" crossorigin="anonymous"></script>
+    <script src="mascara_tel.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="muda_menu.js"></script>
+    
+</head>
+
+<body>
+     <!-- POLÍTICA DE PRIVACIDADE -->
+     <div class="box_container hide">
+        <div class="box-cookies hide">
+            <p class="msg-cookies">Este site usa cookies para garantir que você obtenha a melhor experiência.
+            <!-- <a href="politica.html">Política de Privacidade</a></p> -->
+            <button class="btn-cookies"> Aceitar!</button>
+        </div>
+    </div>
+    
+    <script>
+        if (!localStorage.cookiesEnvida) {
+            document.querySelector(".box-cookies").classList.remove('hide');
+            document.querySelector(".box_container").classList.remove('hide');
+        }
+
+        const acceptCookies = () => {
+            document.querySelector(".box-cookies").classList.add('hide');
+            document.querySelector(".box_container").classList.add('hide');
+            localStorage.setItem("cookiesEnvida", "accept");
+        };
+
+        const btnCookies = document.querySelector(".btn-cookies");
+
+        btnCookies.addEventListener('click', acceptCookies);
+    </script>
+
+    <!-- CABECALHO -->
+    <header class="container_cabecalho">
+       
+        <div class="cabecalho grid_geral nav">
+            <a href="https://envidacorretora.com.br/"><img id="logo_desk" src="img/logo_envida.svg" alt="Envida Corretora de Saúde"></a>
+            <a href="#home"><img id="logo_mobile" src="img/logo_envida.svg" alt="Envida Corretora de Saúde"></a>
+            <nav class="menu">
+                <ul>
+                    <li><a class="link" href="#home">Início</a></li>
+                    <li><a class="link" href="#planos">Planos</a></li>
+                    <li><a class="link"href="#blog">Blog</a></li>
+                    <li><a class="link"href="#sobre">Sobre</a></li>
+                    <li><a class="link"href="#fale_conosco">Fale Conosco</a></li>
+                    <li><a class="link"href="https://api.whatsapp.com/send?phone=5567992747226&text=Ol%C3%A1%2C%20gostaria%20de%20receber%20um%20or%C3%A7amento." target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22.178" height="22.184" viewBox="0 0 22.178 22.184">
+                        <path class="whats" d="M-427.532-117.23a10.442,10.442,0,0,1-1.441-5.3A10.479,10.479,0,0,1-418.506-133a10.479,10.479,0,0,1,10.467,10.467,10.479,10.479,0,0,1-10.467,10.467,10.442,10.442,0,0,1-5.116-1.335L-429-112.017Zm4.5,2.121a8.674,8.674,0,0,0,4.522,1.267,8.7,8.7,0,0,0,8.691-8.691,8.7,8.7,0,0,0-8.691-8.691,8.7,8.7,0,0,0-8.691,8.691,8.658,8.658,0,0,0,1.372,4.69l.216.336-.846,3,3.107-.8Zm6.338-2.552a11.016,11.016,0,0,1-5.941-4.318,4.724,4.724,0,0,1-1.1-3.7,3.1,3.1,0,0,1,1.018-1.559.82.82,0,0,1,.584-.2l.679.037a.35.35,0,0,1,.3.213l.99,2.315a.352.352,0,0,1-.058.368l-.861,1a.261.261,0,0,0-.032.291,7.057,7.057,0,0,0,3.818,3.268.258.258,0,0,0,.29-.086l.9-1.168a.351.351,0,0,1,.426-.1l2.3,1.058a.352.352,0,0,1,.2.393l-.108.507a2.194,2.194,0,0,1-.954,1.392,2.751,2.751,0,0,1-1.506.441A3.466,3.466,0,0,1-416.69-117.661Z" transform="translate(429.717 133.5)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+                        </svg></a></li>
+                    <li><a href="tel:67992747226">
+                        <svg id="Component_29_1" data-name="Component 29 – 1" xmlns="http://www.w3.org/2000/svg" width="20.974" height="20.984" viewBox="0 0 20.974 20.984">
+                        <path class="tel" data-name="tel" d="M226.735,670.5a2.393,2.393,0,0,1,.552-1.528,13.528,13.528,0,0,1,1.376-1.5,2.535,2.535,0,0,1,3.925,1.344c.262.848.5,1.705.7,2.571a2.255,2.255,0,0,1-.746,2.371,1.357,1.357,0,0,0-.387,1.878,10,10,0,0,0,5.983,5.646.774.774,0,0,0,1-.233,2.428,2.428,0,0,1,2.289-1.122,13.776,13.776,0,0,1,3.452.965,2.443,2.443,0,0,1,.571,4.071,2.315,2.315,0,0,0-.406.408,3.072,3.072,0,0,1-3.065,1.122A16.469,16.469,0,0,1,227.2,674.013c-.189-.755-.3-1.529-.448-2.295a1.091,1.091,0,0,1-.019-.2Zm10.487-4.966v1.236c5.621.613,8.656,3.689,9.252,9.226a.332.332,0,0,0,.083.018c.384,0,.769.005,1.153.007V674.87a1.772,1.772,0,0,1-.1-.287,10.325,10.325,0,0,0-7.415-8.616c-.589-.2-1.211-.289-1.818-.43Zm5.284,10.447h1.253a6.448,6.448,0,0,0-6.515-6.465v1.22C240.429,671.1,242.163,672.86,242.507,675.983Zm-3.954,0h1.268a2.513,2.513,0,0,0-2.571-2.548v1.278A1.375,1.375,0,0,1,238.552,675.987Z" transform="translate(-226.735 -665.536)"/>
+                        </svg></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <button class="btn_menu_mobile"><i class="fas fa-bars"></i></button>
+
+        <div class="menu_mobile">
+            <a href="#home_mob"><img src="img/logo_envida.svg" alt="Envida Corretora de Saúde"></a>
+            <li><a href="#home_mob">Início</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#fale_conosco">Fale Conosco</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5567992747226&text=Ol%C3%A1%2C%20gostaria%20de%20receber%20um%20or%C3%A7amento." target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 22.178 22.184">
+                <path class="whats_m" d="M-427.532-117.23a10.442,10.442,0,0,1-1.441-5.3A10.479,10.479,0,0,1-418.506-133a10.479,10.479,0,0,1,10.467,10.467,10.479,10.479,0,0,1-10.467,10.467,10.442,10.442,0,0,1-5.116-1.335L-429-112.017Zm4.5,2.121a8.674,8.674,0,0,0,4.522,1.267,8.7,8.7,0,0,0,8.691-8.691,8.7,8.7,0,0,0-8.691-8.691,8.7,8.7,0,0,0-8.691,8.691,8.658,8.658,0,0,0,1.372,4.69l.216.336-.846,3,3.107-.8Zm6.338-2.552a11.016,11.016,0,0,1-5.941-4.318,4.724,4.724,0,0,1-1.1-3.7,3.1,3.1,0,0,1,1.018-1.559.82.82,0,0,1,.584-.2l.679.037a.35.35,0,0,1,.3.213l.99,2.315a.352.352,0,0,1-.058.368l-.861,1a.261.261,0,0,0-.032.291,7.057,7.057,0,0,0,3.818,3.268.258.258,0,0,0,.29-.086l.9-1.168a.351.351,0,0,1,.426-.1l2.3,1.058a.352.352,0,0,1,.2.393l-.108.507a2.194,2.194,0,0,1-.954,1.392,2.751,2.751,0,0,1-1.506.441A3.466,3.466,0,0,1-416.69-117.661Z" transform="translate(429.717 133.5)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+                </svg></a></li>
+            <li><a href="tel:67992747226">
+                <svg id="Component_29_1" data-name="Component 29 – 1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 20.974 20.984">
+                <path class="tel_m" data-name="tel" d="M226.735,670.5a2.393,2.393,0,0,1,.552-1.528,13.528,13.528,0,0,1,1.376-1.5,2.535,2.535,0,0,1,3.925,1.344c.262.848.5,1.705.7,2.571a2.255,2.255,0,0,1-.746,2.371,1.357,1.357,0,0,0-.387,1.878,10,10,0,0,0,5.983,5.646.774.774,0,0,0,1-.233,2.428,2.428,0,0,1,2.289-1.122,13.776,13.776,0,0,1,3.452.965,2.443,2.443,0,0,1,.571,4.071,2.315,2.315,0,0,0-.406.408,3.072,3.072,0,0,1-3.065,1.122A16.469,16.469,0,0,1,227.2,674.013c-.189-.755-.3-1.529-.448-2.295a1.091,1.091,0,0,1-.019-.2Zm10.487-4.966v1.236c5.621.613,8.656,3.689,9.252,9.226a.332.332,0,0,0,.083.018c.384,0,.769.005,1.153.007V674.87a1.772,1.772,0,0,1-.1-.287,10.325,10.325,0,0,0-7.415-8.616c-.589-.2-1.211-.289-1.818-.43Zm5.284,10.447h1.253a6.448,6.448,0,0,0-6.515-6.465v1.22C240.429,671.1,242.163,672.86,242.507,675.983Zm-3.954,0h1.268a2.513,2.513,0,0,0-2.571-2.548v1.278A1.375,1.375,0,0,1,238.552,675.987Z" transform="translate(-226.735 -665.536)"/>
+                </svg></a></li>
+        </div>
+
+    </header>
+
+    <!-- BANNER ROTATIVO DESK -->
+    <div class="gallery autoplay items-3" id="home">
+        <div id="item-1" class="control-operator"></div>
+        <div id="item-2" class="control-operator"></div>
+        <div id="item-3" class="control-operator"></div>
+      
+        <figure class="item">
+          <h1><img src="img/banner_1.jpg" alt=""></h1>
+        </figure>
+      
+        <figure class="item">
+            <h1><img src="img/banner_2.jpg" alt=""></h1>
+        </figure>
+      
+        <figure class="item">
+            <h1><img src="img/banner_3.jpg" alt=""></h1>
+        </figure>
+    </div>
+
+    <!-- BANNER ROTATIVO MOBILE -->
+    <div class="gallery_mob autoplay items-3" id="home_mob">
+        <div id="item-1" class="control-operator"></div>
+        <div id="item-2" class="control-operator"></div>
+        <div id="item-3" class="control-operator"></div>
+      
+        <figure class="item">
+          <h1><img src="img/banner_mob_1.jpg" alt=""></h1>
+        </figure>
+      
+        <figure class="item">
+            <h1><img src="img/banner_mob_2.jpg" alt=""></h1>
+        </figure>
+      
+        <figure class="item">
+            <h1><img src="img/banner_mob_3.jpg" alt=""></h1>
+        </figure>
+    </div>
+
+    <!-- FALE COM A VIVI -->
+    <div class="vivi">
+        <a href="https://api.whatsapp.com/send?phone=5567992747226&text=Ol%C3%A1%2C%20gostaria%20de%20receber%20um%20or%C3%A7amento." target="_blank"><img class="vivi_anime" src="img/fale_com_a_vivi_anime.gif" alt=""></a>
+        <a href="https://api.whatsapp.com/send?phone=5567992747226&text=Ol%C3%A1%2C%20gostaria%20de%20receber%20um%20or%C3%A7amento." target="_blank"><img src="img/fale_com_a_vivi.png" alt=""></a>
+    </div>
+            
+    <!-- FORMULÁRIO DE COTAÇÃO -->
+    <section class="container_form">
+        <div class="grid_geral">
+            <h1 class="titulo_branco" data-anime="top_2">Faça sua cotação online e saiba agora o valor do seu plano de saúde</h1>
+            <button class="btn_cotar" data-anime="left">Cotar Agora</button>
+            <div class="formulario" data-anime="top">
+            </div>
+        </div>
+        <iframe src="https://www.agiluscrm.com.br/#/formcotacao?chave=708f0034-2397-0eef-4e05-50dde2fb9cbc&numeroWhatsApp=5567998602020&textoWhatspApp=Teste"></iframe>
+        <button class="btn_close"><i class="far fa-window-close fa-2x"></i></button>
+    </section>
+
+    <!-- PLANOS -->
+    <section class="container_planos" id="planos">
+        <div class="planos grid_geral">
+            <h1 class="titulo_cinza" data-anime="top">Trabalhamos com as melhores operadoras</h1>
+            <hr data-anime="top">
+            <div class="logos"  >
+                <img data-anime1="left_1" data-anime1="troca_cor_1"  src="img/Logo Bradesco Saúde.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_2"  src="img/Logo Amil.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_3"  src="img/Logo Unimed.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_4"  src="img/Logo Sul América.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_5"  src="img/Logo São Francisco.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_6"  src="img/Logo Santa Casa.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_7"  src="img/logo_Prevent Senior.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_8"  src="img/Logo Odontoprev.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_9"  src="img/Logo Qualicorp.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_10"  src="img/Logo Prover Saúde.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_12"  src="img/logo_Plural Saúde.png" alt="">
+                <img data-anime1="left_1" data-anime1="troca_cor_13"  src="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDS -->
+    <section class="container_card">
+        <h1 class="titulo_cinza" id="blog"  data-anime="top">Tranquilidade para escolher</h1>
+        <hr data-anime="top">
+        <div class="cards grid_geral">  
+                   
+            <div class="card_foto" data-anime="top">
+                <img src="img/card_1.jpg" alt="Para sua empresa">
+                <h2 class="subtitulo_branco">para sua empresa</h2>
+                <hr>
+                <p class="texto_branco">segurança para crescer mais.</p>
+            </div>
+
+            <div class="card_foto" data-anime="top_2">
+                <img src="img/card_2.jpg" alt="Para sua família">
+                <h2 class="subtitulo_branco">para sua família</h2>
+                <hr>
+                <p class="texto_branco">Segurança para quem cuida.</p>
+            </div>
+
+            <div class="card_foto" data-anime="top_3">
+                <img src="img/card_3.jpg" alt="Para você">
+                <h2 class="subtitulo_branco">para você</h2>
+                <hr>
+                <p class="texto_branco">sua vida mais leve e segura.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SOBRE NÓS -->
+    <section class="container_sobre">
+        <div class="sobre grid_geral">
+            <h1 class="titulo_branco" id="sobre" data-anime="top">Sobre nós</h1>
+            <hr data-anime="top">
+            <p data-anime="left">Reunindo experiência e liderança na área, a ENVIDA é especializada em proteger a saúde e o bem-estar de nossos clientes. Atualmente, há muitos produtos no mercado e os clientes dos serviços de seguro de saúde e vida tem dificuldades de escolher o plano que melhor se adequa ao seu perfil.</p>
+            <p data-anime="left">A ENVIDA foi criada para ajudar nossos clientes na contratação das melhores opções, aquelas que mais atendem às suas necessidades. Para tanto, nossos profissionais são especializados, legalmente habilitados a intermediar e promover contratos de seguro entre as seguradoras e o cliente final.</p>
+        </div>
+    </section>
+
+    <!-- FALE CONOSCO -->
+    <section class="container_contato" id="fale_conosco">
+        <div class="contato" >
+            <h1 class="titulo_branco" data-anime="top">Fale conosco</h1>
+            <hr data-anime="top">
+            <form class="formphp" data-anime="top" action="./enviar.php" method="POST">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="email" name="email"placeholder="E-mail" required>
+                <input type="text" name="telefone" id="telefone" placeholder="Celular" maxlength="15" required/>
+                <textarea name="mansagem" cols="1" rows="1" placeholder="Mensagem"></textarea>
+                <button id="enviar" class="subtitulo_cinza" name="enviar" type="submit">Cotar Agora</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <section class="container_rodape">
+        <div class="rodape grid_geral">
+            <div class="bloco">
+                <h2 class="subtitulo_branco">NOSSO PROPÓSITO</h2>
+                <hr>
+                <p class="texto_branco">"As pessoas são livres para escolher e sentirem-se seguras". Determinação, coragem e valor à vida são valores que orientam a ENVIDA CORRETORA.</p>
+            </div>
+
+            <div class="bloco">
+                <h2 class="subtitulo_branco">CONTATO</h2>
+                <hr>
+                <a class="texto_branco" href="tel:67992747226"><p> - (67) 99274-7226</p></a>
+                <a class="texto_branco" href="tel:6799605 6530"><p> - (67) 99605-6530</p></a>
+                <a class="texto_branco" href="mailto:contato@envidacorretora.com.br"><p>- contato@envidacorretora.com.br</p></a>
+                <p class="texto_branco">- Campo Grande - ms</p>    
+            </div>
+
+            <div class="bloco">
+                <h2 class="subtitulo_branco">REDES SOCIAIS</h2>
+                <hr>
+                <div class="icones">
+                    <a class="texto_branco" href="https://www.facebook.com/Envida-Corretora-de-Planos-de-Sa%C3%BAde-100982827934109" target="_blank"><svg id="icone_facebook_circle" xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+                        <g id="Rectangle_6" data-name="Rectangle 6" fill="none" stroke="" stroke-width="3">
+                        <rect width="43" height="43" rx="21.5" stroke="none"/>
+                        <rect x="1.5" y="1.5" width="40" height="40" rx="20" fill="none"/>
+                        </g>
+                        <path id="facebook" d="M11.449,23.624a.3.3,0,0,0,.3.3h4.3a.3.3,0,0,0,.3-.3V11.868h3.114a.3.3,0,0,0,.3-.277l.3-3.541a.3.3,0,0,0-.3-.327H16.347V5.211a1.066,1.066,0,0,1,1.066-1.067h2.4a.3.3,0,0,0,.3-.3V.3a.3.3,0,0,0-.3-.3H15.759A4.309,4.309,0,0,0,11.45,4.309V7.724H9.3a.3.3,0,0,0-.3.3v3.542a.3.3,0,0,0,.3.3h2.148Z" transform="translate(7.449 9.355)" fill="" fill-rule="evenodd"/>
+                    </svg></a>
+
+                    <a class="texto_branco" href="https://www.instagram.com/envidacorretora/" target="_blank"><svg id="icone_instagram_circle" xmlns="http://www.w3.org/2000/svg" width="44" height="43" viewBox="0 0 44 43">
+                        <g id="Rectangle_31" data-name="Rectangle 31" fill="none" stroke="" stroke-width="3">
+                        <rect width="44" height="43" rx="21.5" stroke="none"/>
+                        <rect x="1.5" y="1.5" width="41" height="40" rx="20" fill="none"/>
+                        </g>
+                        <path id="instagram" d="M21.668,16.719a4.95,4.95,0,0,1-4.95,4.95H7.207a4.95,4.95,0,0,1-4.95-4.95V7.206a4.95,4.95,0,0,1,4.95-4.95h9.512a4.95,4.95,0,0,1,4.95,4.95Zm2.257-9.513A7.207,7.207,0,0,0,16.718,0H7.207A7.206,7.206,0,0,0,0,7.206v9.513a7.207,7.207,0,0,0,7.207,7.207h9.51a7.207,7.207,0,0,0,7.207-7.207ZM12,15.9a3.785,3.785,0,1,1,3.785-3.785A3.789,3.789,0,0,1,12,15.9Zm0-9.693a5.908,5.908,0,1,0,5.909,5.908A5.915,5.915,0,0,0,12,6.209Zm6.253-1.8a1.407,1.407,0,1,0,1.407,1.407A1.407,1.407,0,0,0,18.256,4.4Z" transform="translate(10.037 9.355)" fill=""/>
+                    </svg></a>
+
+                    <a class="texto_branco" href=""><svg id="icone_tweeter_circle" xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+                        <g id="Rectangle_32" data-name="Rectangle 32" fill="none" stroke="" stroke-width="3">
+                        <rect width="43" height="43" rx="21.5" stroke="none"/>
+                        <rect x="1.5" y="1.5" width="40" height="40" rx="20" fill=""/>
+                        </g>
+                        <path id="twitter" d="M23.836,5.362a9.848,9.848,0,0,1-2.416.69c.389-.066.963-.77,1.193-1.056a4.446,4.446,0,0,0,.8-1.465c.021-.042.037-.094,0-.126a.14.14,0,0,0-.129.011,12.349,12.349,0,0,1-2.87,1.1.193.193,0,0,1-.2-.052,2.32,2.32,0,0,0-.25-.257,5.08,5.08,0,0,0-1.391-.852A4.843,4.843,0,0,0,16.44,3.01a5.1,5.1,0,0,0-2.024.572,5.22,5.22,0,0,0-1.631,1.332,5.012,5.012,0,0,0-.975,1.953,5.314,5.314,0,0,0-.052,2.061c.016.115.006.131-.1.115A15.329,15.329,0,0,1,1.794,4.024c-.115-.132-.178-.132-.272.01a5,5,0,0,0,.852,5.91c.194.183.392.366.606.533a5.022,5.022,0,0,1-1.9-.533c-.115-.073-.173-.031-.183.1a2.983,2.983,0,0,0,.031.565,5.059,5.059,0,0,0,3.118,4.033,2.946,2.946,0,0,0,.633.193,5.638,5.638,0,0,1-1.867.058c-.136-.027-.188.041-.136.172A5.248,5.248,0,0,0,6.6,18.349c.178.031.356.031.534.073-.01.016-.021.016-.031.031-.441.671-1.968,1.172-2.679,1.421a9.6,9.6,0,0,1-4.069.52c-.218-.032-.265-.03-.324,0s-.007.09.063.146c.277.183.559.345.847.5a13.421,13.421,0,0,0,2.72,1.088A14.487,14.487,0,0,0,17.72,18.843C20.6,15.979,21.61,12.031,21.61,8.076c0-.154.182-.239.292-.321a9.455,9.455,0,0,0,1.905-1.99.579.579,0,0,0,.118-.381V5.362C23.925,5.3,23.933,5.318,23.836,5.362Z" transform="translate(9.355 8.599)" fill="" fill-rule="evenodd"/>
+                    </svg></a>
+                    
+                    <a class="texto_branco" href="https://api.whatsapp.com/send?phone=5567992747226&text=Ol%C3%A1%2C%20gostaria%20de%20receber%20um%20or%C3%A7amento." target="_blank"><svg id="icone_whats_circle" xmlns="http://www.w3.org/2000/svg" width="40.272" height="40.316" viewBox="0 0 40.272 40.316">
+                        <path id="Path_9" data-name="Path 9" d="M68.494,108.637l2.82-10.017a20.1,20.1,0,1,1,7.51,7.358Zm10.859-6.318.616.376a16.695,16.695,0,1,0-5.374-5.254l.415.646-1.624,5.769Z" transform="translate(-68.494 -68.321)" fill=""/>
+                        <path id="Path_10" data-name="Path 10" d="M152.116,152.9l-1.3-.071a1.578,1.578,0,0,0-1.122.384,5.945,5.945,0,0,0-1.955,3c-.463,2.064.253,4.591,2.106,7.117a21.174,21.174,0,0,0,11.413,8.3,5.562,5.562,0,0,0,4.71-.583,4.213,4.213,0,0,0,1.833-2.674l.208-.973a.676.676,0,0,0-.378-.756l-4.41-2.033a.676.676,0,0,0-.818.2l-1.731,2.244a.5.5,0,0,1-.557.166,13.558,13.558,0,0,1-7.336-6.278.5.5,0,0,1,.063-.558l1.655-1.914a.676.676,0,0,0,.11-.708l-1.9-4.448A.676.676,0,0,0,152.116,152.9Z" transform="translate(-137.604 -142.148)" fill=""/>
+                    </svg></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p class="texto_cinza">ENVIDA 2021 © - Todos os direitos reservados | desenvolvido por <a href="https://samuellnogueira.com/">Samuel nogueira</a></p>
+        </div>
+    </section>
+
+
+    <!-- SCROLL SUAVE -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="scroll_suave.js"></script>
+    <script src="simple-form.js"></script>
+    <script src="form.js"></script>
+
+    <!-- ANIMAÇÕES -->
+    <script src="animacoes.js"></script>
+
+    <!-- SCRIPT ABRE E FECHA MENU -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script>
+		if(screen > 600){
+        $(".btn_menu_mobile").click(function(){
+			$(".menu_mobile").show();
+            $(".vivi").hide();
+		});
+
+		$(".menu_mobile").click(function(){
+			$(".menu_mobile").hide();
+            $(".vivi").show();
+		});
+    } else{
+        $(".btn_menu_mobile").click(function(){
+			$(".menu_mobile").show();
+		});
+
+		$(".menu_mobile").click(function(){
+			$(".menu_mobile").hide();
+		});
+
+    }
+
+    // TELA COTADOR
+
+        $(".container_form button").click(function(){
+			$(".container_form iframe").show();
+            $(".btn_close").show();
+		});
+
+		$(".btn_close").click(function(){
+			$(".container_form iframe").hide();
+            $(".btn_close").hide();
+		});
+
+	</script>
+
+    
+
+</body>
+</html>
